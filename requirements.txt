@@ -1,0 +1,12 @@
+# Testing
+pytest
+pytest-cov
+pytest-env
+pytest-flask
+pytest-xdist
+
+# Style checkers/linters
+flake8
+pep8
+pydocstyle
+pylint

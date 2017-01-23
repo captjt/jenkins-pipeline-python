@@ -1,0 +1,11 @@
+[run]
+source = app
+omit =
+    # ignore the dummy test data
+    */data/*
+
+    # ignore single files
+    tests/unit/test_schema.py
+    app/example_table_mappings.py
+    app/utils.py
+
