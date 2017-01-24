@@ -4,8 +4,6 @@ node {
    	stage 'Checkout'
 	   	checkout scm
 	stage 'Build'
-		sh 'python3.6 -m venv env'
-		sh 'source env/bin/activate'
 		sh 'pip install -r requirements.txt'
 		sh "ls -la ${pwd()}"
 		sh 'python setup.py test'
